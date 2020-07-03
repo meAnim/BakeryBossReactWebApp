@@ -22,7 +22,7 @@ class Counter extends Component {
       return (
         <div>
           <h1>List of FeedBack</h1>
-          <Table striped>
+          <Table striped hover>
             <thead>
               <tr>
                 <th>Name</th>

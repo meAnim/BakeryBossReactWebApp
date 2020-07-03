@@ -21,18 +21,18 @@ class NavBar extends Component {
           <NavbarToggler onClick="" />
           <Collapse isOpen="" navbar>
             <Nav className="ml-auto" navbar>
-              <form class="form-inline my-2 my-lg-0">
-                <Link class="nav-link" to={"signup"}>
+              <form className="form-inline my-2 my-lg-0">
+                <Link className="nav-link" to={"signup"}>
                   <button
-                    class="btn btn-outline-success my-2 my-sm-0"
+                    className="btn btn-outline-success my-2 my-sm-0"
                     type="button"
                   >
                     Sign up
                   </button>
                 </Link>
-                <Link class="nav-link" to={"login"}>
+                <Link className="nav-link" to={"login"}>
                   <button
-                    class="btn btn-outline-primary my-2 my-sm-0"
+                    className="btn btn-outline-primary my-2 my-sm-0"
                     type="button"
                   >
                     Log in
