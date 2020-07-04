@@ -11,15 +11,22 @@ import {
 
 import { Link } from "react-router-dom";
 class NavBar extends Component {
-  state = {};
+  state = {
+    isOpen: false,
+    setIsOpen: false,
+  };
+
+  toggle = () => {
+    this.setState(!this.state.isOpen);
+  };
 
   render() {
     return (
       <div>
         <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">BakeryBoss</NavbarBrand>
-          <NavbarToggler onClick="" />
-          <Collapse isOpen="" navbar>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <form className="form-inline my-2 my-lg-0">
                 <Link className="nav-link" to={"signup"}>

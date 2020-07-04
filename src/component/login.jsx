@@ -7,8 +7,6 @@ import {
   Input,
   Card,
   CardBody,
-  Container,
-  Col,
 } from "reactstrap";
 import NavBar from "./navBar";
 class Login extends Component {
